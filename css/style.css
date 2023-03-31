@@ -2,7 +2,7 @@ body{
     background-color: #F45DAA;
 }
 h1{
-    color:#F45DAA;
+    color: beige;
     text-align:center;
 }
 
@@ -24,12 +24,21 @@ nav{
 }
 
 .container{
-    background-color:beige;
+    background-color: #F45DAA;
     width: 80%;
     margin: auto;
 }
 
 footer{
-    background-color:beige;
+    background-color:#F7EDE3;
     width: 100%;
+
+}
+p{
+    color:beige;
+}
+
+h2{
+    color:#F7EDE3;
+    text-align: center;
 }
