@@ -1,23 +1,29 @@
 body{
     background-color: #F45DAA;
 }
+
+
 h1{
     color: beige;
     text-align:center;
+    padding: 1%;
 }
 
 header{
     width: 100%;
 }
+
 .logo{
     text-align: center;
     color:aliceblue;
     font-size: 1.5em;
 }
+  
 nav{
     text-align: center;
     color:beige
     font-size: 1.5em;
+    
 }
 .banner{
     width: 100%;
