@@ -42,9 +42,25 @@ footer{
 }
 p{
     color:beige;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    line-height: 1.5em;
+    font-size: 1.1em;
 }
 
 h2{
-    color:#F7EDE3;
+    color:rgb(255, 255, 255);
     text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Lobster', cursive;
+
+}
+
+li{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
