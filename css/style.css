@@ -2,6 +2,9 @@ body{
     background-color: #F45DAA;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 h1{
     color: beige;
@@ -26,6 +29,11 @@ nav{
     
 }
 
+.barbielogo{
+    float: right;
+    width: 40%;
+}
+
 .banner{
     width: 100%;
 }
@@ -39,6 +47,7 @@ nav{
 footer{
     background-color:#F45DAA
     width: 100%;
+    text-align: center;
 
 }
 
