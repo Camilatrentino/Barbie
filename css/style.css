@@ -1,5 +1,5 @@
 body{
-    background-color: #F45DAA;
+    background-color:#1A0202;
 }
 
 html{
@@ -7,7 +7,7 @@ html{
 }
 
 h1{
-    color: beige;
+    color:#C6CAC9;
     text-align:center;
     padding: 1%;
 }
@@ -17,14 +17,14 @@ header{
 }
 
 .logo{
-    text-align: center;
-    color:aliceblue;
+    
+    color:#C6CAC9;
     font-size: 1.5em;
 }
   
 nav{
     text-align: center;
-    color:beige
+    color:beige;
     font-size: 1.5em;
     
 }
@@ -39,20 +39,20 @@ nav{
 }
 
 .container{
-    background-color: #F45DAA;
+    background-color:#1A0202;
     width: 80%;
     margin: auto;
 }
 
 footer{
-    background-color:#F45DAA
+    background-color:#1A0202;
     width: 100%;
     text-align: center;
 
 }
 
 p{
-    color:beige;
+    color:#C6CAC9;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 3%;
@@ -63,7 +63,7 @@ p{
 }
 
 h2{
-    color:rgb(255, 255, 255);
+    color:#C6CAC9;
     text-align: center;
     font-size: 1.5em;
     padding-bottom: 1%;
@@ -73,6 +73,7 @@ h2{
 }
 
 li{
+    color:#C6CAC9;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -86,3 +87,111 @@ li{
 .col-6 {
     width: 50%;
 }
+
+.Posterfilme{
+    float: left;
+    width:12%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+}
+
+.Posterfilme1{
+    float: right;
+    width:12%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+
+h3{
+    color:#C6CAC9;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Lobster', cursive;
+}
+
+.resumo{
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.personagem{
+    float: right;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+
+.personagem1{
+    float:left;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #C6CAC9;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+th{
+   background-color: #3F0302;
+}
+
+.tabela{
+    font-size:150%;
+}
+
+.Posterserie{
+    float: left;
+    width:12%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+
+}
+
+.Posterserie2{
+    float: right;
+    width:12%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+
+.Posterserie3{
+    float: right;
+    width:11%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+
+}
+
+.Posterserie4{
+    float: left;
+    width:15%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+
+}
+
+.Posterserie5{
+    float: right;
+    width:9%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+  
+
