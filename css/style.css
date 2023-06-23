@@ -66,9 +66,10 @@ h2{
     color:#C6CAC9;
     text-align: center;
     font-size: 1.5em;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     padding-top: 1%;
     font-family: 'Lobster', cursive;
+    padding-top: 2em;
 
 }
 
@@ -84,8 +85,9 @@ li{
     text-align: center;
 }
 
-.col-6 {
+.video{
     width: 50%;
+ 
 }
 
 .Posterfilme{
@@ -93,6 +95,8 @@ li{
     width:12%;
     margin-right: 1%;
     padding-bottom: 3%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
 }
 
 .Posterfilme1{
@@ -101,6 +105,8 @@ li{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
 }
 
 h3{
@@ -121,6 +127,7 @@ h3{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+ 
 }
 
 .personagem1{
@@ -157,6 +164,8 @@ th{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
 
 }
 
@@ -166,6 +175,8 @@ th{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
 }
 
 .Posterserie3{
@@ -174,6 +185,8 @@ th{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
 
 }
 
@@ -183,6 +196,8 @@ th{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
 
 }
 
@@ -192,6 +207,13 @@ th{
     margin-right: 1%;
     padding-bottom: 3%;
     padding-left: 1%;
+    box-shadow: 5px 5px rgb(101, 9, 9) ;
+    border: 1px bisque;
+}
+
+.listafilme{
+    list-style-image: url(../img/plaquetabran.png);
+    text-align: center;
 }
   
 
