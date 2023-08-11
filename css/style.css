@@ -17,9 +17,7 @@ header{
 }
 
 .logo{
-    
-    color:#C6CAC9;
-    font-size: 1.5em;
+   width: 10%;
 }
   
 nav{
@@ -94,19 +92,21 @@ li{
     float: left;
     width:12%;
     margin-right: 1%;
-    padding-bottom: 3%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
+    padding-bottom: 0%; 
+    padding-left: 1%; 
+    box-shadow:5px 5px #730504;
 }
+
+
 
 .Posterfilme1{
     float: right;
     width:12%;
     margin-right: 1%;
-    padding-bottom: 3%;
-    padding-left: 1%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
+    padding-bottom: 0%;
+    padding-left: 1%; 
+    box-shadow:5px 5px #730504;
+
 }
 
 h3{
@@ -162,31 +162,27 @@ th{
     float: left;
     width:12%;
     margin-right: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     padding-left: 1%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
-
+    box-shadow:5px 5px #730504;
 }
 
 .Posterserie2{
     float: right;
     width:12%;
     margin-right: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     padding-left: 1%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
+    box-shadow:5px 5px #730504;
 }
 
 .Posterserie3{
     float: right;
     width:11%;
     margin-right: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     padding-left: 1%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
+    box-shadow:5px 5px #730504;
 
 }
 
@@ -194,10 +190,9 @@ th{
     float: left;
     width:15%;
     margin-right: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     padding-left: 1%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
+    box-shadow:5px 5px #730504;
 
 }
 
@@ -205,15 +200,20 @@ th{
     float: right;
     width:9%;
     margin-right: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     padding-left: 1%;
-    box-shadow: 5px 5px rgb(101, 9, 9) ;
-    border: 1px bisque;
+    box-shadow:5px 5px #730504;
 }
 
 .listafilme{
     list-style-image: url(../img/plaquetabran.png);
     text-align: center;
 }
+
+.espaço{
+    padding-bottom: 5%;
+}
+
+
   
 
