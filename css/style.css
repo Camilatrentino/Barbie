@@ -215,10 +215,15 @@ th{
 }
 
 .social{
-    width: 8%;
+    width: 4%;
     padding-left: 2%;
 }
 
+.botao{
+    color:black;
+    text-align: left;
+    font-size:  20px;
+}
 
   
 
