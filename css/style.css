@@ -225,5 +225,105 @@ th{
     font-size:  20px;
 }
 
+
+input[type=text], select, textarea, input[type=email], input[type=tel]{
+    width: 90%;
+    padding: 1%;
+    border: 1px solid #3F0302;
+    border-radius: 15px;
+    resize: vertical;
+}
+
+ 
+.col-25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+  background-color:rgb(15, 96, 218);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+
+}
+
+input[type=submit]:hover {
+  background-color:rgb(15, 96, 218);
+  font-weight: bolder;
+}
+
+label {
+    padding: 4%;
+    font-size: 1.2em;
+    display: inline-block;
+    color:#C6CAC9;
+}
+
+.form{
+    font-size: 1.2em;
+    padding-top: 3%;
+}
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    line-height: 3em;
+    background-color: #1A0202;
+}
+
+@media screen and (min-width:791px) {
+
+    header{
+        flex-direction: row;
+    }
+    .menu{
+        width: 70%;
+        padding-top: 2em;
+    }
+    .menu ul li{
+        display: inline;
+        margin-left: 1%;
+        font-size: 70%;
+        
+     
+    }
+    .banner{
+        margin-top: 5%;
+    }
+    .logo{
+        width: 10%;
+        float: left;
+        padding-left: 5%;
+    }
+
+}
+
+    .logo{
+        
+    }
+
   
 

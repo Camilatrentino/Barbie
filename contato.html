@@ -11,28 +11,92 @@
 
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/favicon.png" alt="" srcset="">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#historia">História de criação</a></li>
-                <li><a href="filmes.html">Filmes</a></li>
-                <li><a href="séries.html">Séries</a></li>
-                <li><a href="Personagens Pricipais.html">Personagens principais</a></li>
-                <li><a href="Trilha sonora.html">Trilha sonora</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+	<header class="fixo">
+        <div>
+             <div class="logo">
+               <img src="img/th-removebg-preview (1).png" alt="" srcset="">
+             </div>
+             <div>
+                <nav class="menu">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="index.html#historia">História de criação </a></li>
+                     <li><a href="filmes.html">Filmes</a></li>
+                     <li><a href="séries.html">Séries</a></li>
+                     <li><a href="Personagens Pricipais.html">Personagens principais</a></li>
+                     <li><a href="Trilha sonora.html">Trilha sonora</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                  </ul>
+           
+                </nav>
+             </div>
+         </div>
     </header>
     <figure>
         <img class="banner" src="img/marvel Studios header.jpg" alt="">
     </figure>
+    <div class="container">
+
+		<h1 class="form">Formulário</h1>
+
+		<form action="#">
+			<div class="row">
+				<div class="col-25">
+				  	<label for="nome">Nome completo</label>
+				</div>
+				<div class="col-75">
+				  	<input type="text" id="nome" name="nome" placeholder="Digite o seu nome...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="#">Número de telefone</label>
+				</div>
+				<div class="col-75">
+					<input type="tel" name="telefone" id="telefone" placeholder="(11) 4002-8922">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  	<label for="#">Email</label>
+				</div>
+				<div class="col-75">
+				  	<input type="email" id="email" name="email" placeholder="Digite o seu Email...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="#">Estado</label>
+				</div>
+				<div class="col-75">
+				  	<select id="estado" name="estado">
+					<option value="SP">SP</option>
+					<option value="RJ">RJ</option>
+					<option value="MG">MG</option>
+					<option value="BA">BA</option>
+					<option value="MS">MS</option>
+				  	</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  	<label for="#">Reclamações</label>
+				</div>
+				<div class="col-75">
+				  	<textarea id="reclamações" name="reclamações" placeholder="Escreva algo..." style="height:200px"></textarea>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
+		
+	</div>
+
 
     <footer>
-        <p>desenvolvido por <a href="https://instagram.com/camis_trentino?igshid=ZGUzMzM3NWJiOQ==">Camila Fernandes Trentino</a> </p>
+        <p>desenvolvido por Camila Fernandes Trentino </p>
         <a href="https://github.com/Camilatrentino"><img class="social" src="img/github.png" alt=""></a>
         <a href="https://instagram.com/camis_trentino?igshid=ZGUzMzM3NWJiOQ=="><img class="social" src="img/instagram.png" alt=""></a>
         <a href=""><img class="social" src="img/linkedin.png" alt=""></a>
