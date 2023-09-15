@@ -284,34 +284,36 @@ label {
 }
 
 .fixo{
-    position: fixed;
+    position:sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
     width: 100%;
-    line-height: 3em;
+    line-height: 4.2em;
     background-color: #1A0202;
+
 }
 
-@media screen and (min-width:791px) {
+@media screen and (min-width:1117px) {
 
     header{
         flex-direction: row;
     }
     .menu{
-        width: 70%;
+        width: 90%;
         padding-top: 2em;
+        padding-right: 10%;
     }
     .menu ul li{
         display: inline;
         margin-left: 1%;
         font-size: 70%;
-        
-     
+
+       
     }
     .banner{
-        margin-top: 5%;
+        margin-top: 0%;
     }
     .logo{
         width: 10%;
@@ -319,10 +321,49 @@ label {
         padding-left: 5%;
     }
 
+    @media screen and (max-width:117px) {
+        .logo{
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            display: block;
+        }
+    
+        .menu{
+            padding-right: 2em;
+            font-size: 1em;
+        }
+       
+        .video{
+            width: 80%;
+        }
+    }
+    
 }
 
+    .menu{
+        text-align: center;
+        padding-bottom: 2%;
+        text-align: right;
+    }
+
     .logo{
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 1%;
+        width: 5%;
+    }
+
+    @media (max-width:1117px) {
+
+        .linha {
+            flex-direction: column;
+        }
+    
+        .col-6 {
+            width: 100%;
         
+        }
     }
 
   
